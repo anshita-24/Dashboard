@@ -9,8 +9,6 @@ mock data and demonstrates:
 - **API route** (`/api/sales`) that returns the same mock data to simulate integration
 - Atomic structure: `atoms` → `molecules` → `organisms` → page
 
-> Note: You asked for “random Kaggle sales”; this project uses realistic **mock data** for a zero-dependency demo.
-> Swap the mock with real data from an API or a processed Kaggle dataset in `app/api/sales/route.ts`.
 
 ## Tech Stack
 
@@ -44,13 +42,6 @@ You’ll see a **Home** page with a link to the **Dashboard**. The chart panel l
 - **Multiple Chart Types**: Switch between Bar, Line, Area, and Pie charts.
 - **API Integration (Mock)**: Click **Load from API** to fetch the same data via `/api/sales`.
 
-
-## Atomic Design Notes
-
-- **Atoms**: `Button`, `Input`, `Select`
-- **Molecules**: `ChartToolbar` (composes atoms)
-- **Organisms**: `SalesChartPanel` (molecule + chart + summary)
-- **Pages**: `app/dashboard/page.tsx`
 
 
 ```
